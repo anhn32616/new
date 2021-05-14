@@ -7,7 +7,7 @@ import java.nio.charset.StandardCharsets;
 
 public class demo3 {
 
-	public static void main(String[] args) {
+	public static void main(String[] arg) {
 		try {		
 			File file2 = new File("D:\\New folder\\sdtZalo.txt");
 			FileWriter fos = new FileWriter(file2, StandardCharsets.UTF_8);
